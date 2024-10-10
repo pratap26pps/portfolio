@@ -30,6 +30,7 @@
      .project-card{
       
     top: -667px;
+ 
       
     }
     .project-container{
@@ -52,12 +53,17 @@
         top: -6px;
        
     } 
+    #pt2{
+        margin-top: -30px;
+    }
     .skills-section{
         top: -644px;
     }
    .skill-card{
-    scale: 0.5;
+    
      margin-left: -10%;
+     display: flex;
+     flex-direction: column;
     
    }
    .skill-image{
@@ -67,15 +73,14 @@
  
  }
    .skill-text{
-    margin-right: 132px;
-    margin-top: -80%;
+    width: 190%;
+    margin-top: -64%;
    }
    .skill-div{
-    margin-top: -60%;
-    display: grid;
-    grid-template-columns: repeat(4,4fr);
-     grid-area: 4/5/6/7;
- 
+     width: 130%;
+     margin-top: 7%;
+
+   
    }
    .form-section{
    margin-top:-634px;
@@ -363,8 +368,10 @@ button{
      gap: 3vw;
 }
 .skill-image{
-   height: 8vh;
-    width: 4vw;
+   /* height: 8vh;
+    width: 4vw; */
+    height: 52px;
+    width: 40px;
 
 }
 .skill-image:hover{
