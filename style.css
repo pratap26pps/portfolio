@@ -5,54 +5,39 @@
    scroll-behavior: smooth;
 }
   @media (max-width:440px) {
-
-    .logo-text{
-        scale: 0.9;
-    }
-    .logo{
    
-      margin-left: -8%;
-      
-    }
     .hero{
-        margin-left: -120px;
-      
-      scale: 0.5;
+      scale: 0.7;
     }
-    
-    .project1-flex{
-        display: flex;
-    }
-    .project1-content{
-       margin-left: -60px;
-    }
- 
-     .project-card{
-      
-    top: -667px;
- 
-      
-    }
-    .project-container{
-        scale: 0.5;
-        
-    }
-    .page-hd{
-        margin-left: 270px; 
-        scale: 0.9;
    
-    }
-    .project-section{    
-       
-        margin-left: -280px;
-    }
-    .project-content{
-        scale: 0.7;
-        left: -30px;
-        padding: 85px;
-        top: -6px;
-       
-    } 
+ .hero-section{
+    display: flex;
+    flex-direction: column-reverse;
+     margin-bottom: 84px;
+ }
+ .fadded-text{
+    scale: 0.4;
+    margin-left: -282px;
+ }
+ .text{
+    padding: 15%;
+    margin-left: -10%;
+   
+ }
+ .project-card{
+  
+    margin-left: -163px;
+  
+   
+ }
+ .project-container {
+  scale: 0.4;
+  margin-bottom: 50%;
+  margin-top: -120%;
+}
+ 
+ 
+   
     #pt2{
         margin-top: -30px;
     }
@@ -90,10 +75,8 @@
    scale: 0.8;
     }
     .fadded-text1{
-        scale: 0.4;
-       
-     right: 123%;
-    
+     margin-left: -83px; 
+     scale: 0.4;
     }
   
     .fadded-text2{
@@ -109,7 +92,13 @@
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: cadetblue;
+    
   
+}
+.P{
+    color: crimson;
+  font-size: 180%;
 }
 
 .container{
@@ -120,18 +109,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1rem;
- 
+    margin-top: 4%; 
+   
+     
 }
 .logo-container{
     display: flex;
     margin-left: 3vw;
-
+ 
 }
-.logo-text{
-    margin-top: 10vh;
-    margin-left: -1.7vw;
-}
+ 
 .navitem{
     
     display: flex;
@@ -144,6 +131,7 @@
     color: #1f1f1f;
  
 }
+ 
 
 .navitem1{
     display: flex;
@@ -165,16 +153,16 @@ a{
 
 }
 .hero-section{
+    margin-top: 3%;
     height: 80vh;
-    display: flex;
-   justify-content: space-between;
+     display: flex;
+    justify-content: space-evenly;
 }
 .text{
-    position: relative;
+    margin-top: 5%;
+    width: 456px;
      display: flex;
      flex-direction: column;
-    padding: 10%;
-    justify-content: baseline;
     z-index: 5;
     gap: 6%;
 }
@@ -203,14 +191,15 @@ button{
 }
 .fadded-text{
     position: absolute; 
-   /* width: 82vw;  */
+   width: 243vw;
+ 
     user-select: none;
     font-size: 6rem;
     color: rgb(211,211,211);
     bottom: 1%;
     left: 8%;
     font-weight: bold;
-     z-index: -5;
+     z-index:10;
  
 }
 .role{
@@ -242,8 +231,9 @@ button{
     text-align: center;
 }
 .project-container{
-    width: 200vh;
-    margin: 0 auto;
+    
+    justify-content: center;
+    align-items: center;
     padding: 3rem 0;
     display: flex;
     flex-wrap: wrap;
@@ -258,11 +248,12 @@ button{
 
 
 .project-card{
-    width: 45vw;
-    height:45vh;
+   
+    width: 675px;
+    height:315px;
+ 
     display: flex;
     flex-wrap: wrap;
-    margin-left: 24vw;
     display: grid;
     grid-template-columns: auto;
     background-color: blueviolet;
@@ -273,9 +264,9 @@ button{
 }
 .project-card-left{
     left: 10%;
-}
+} 
 
-.project-card-right{
+  .project-card-right{
     right: 10%;
 }
 .project-card::after{
