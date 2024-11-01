@@ -8,22 +8,26 @@
    
     .hero{
       scale: 0.7;
+      margin-left: 4%;
+     
     }
    
  .hero-section{
     display: flex;
     flex-direction: column-reverse;
-     margin-bottom: 84px;
+    
  }
  .fadded-text{
     scale: 0.4;
-    margin-left: -282px;
+    margin-left: -293px;
+    margin-bottom: 10%;
  }
  .text{
-    padding: 15%;
+    padding: 20%;
     margin-left: -10%;
-   
+    
  }
+ 
  .project-card{
   
     margin-left: -163px;
@@ -33,7 +37,7 @@
  .project-container {
   scale: 0.4;
   margin-bottom: 50%;
-  margin-top: -120%;
+ margin-top: -100%;
 }
  
  
@@ -204,7 +208,7 @@ button{
 }
 .role{
     color: blue;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 45px;
 }
 @keyframes scaleimage {
