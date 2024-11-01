@@ -8,7 +8,7 @@
    
     .hero{
       scale: 0.7;
-      margin-left: 4%;
+      margin-left: 6%;
      
     }
    
@@ -19,13 +19,13 @@
  }
  .fadded-text{
     scale: 0.4;
-    margin-left: -293px;
-    margin-bottom: 10%;
+    margin-left: -300px;
+    margin-bottom: 13%;
  }
  .text{
-    padding: 20%;
+    padding: 16%;
     margin-left: -10%;
-    
+     
  }
  
  .project-card{
