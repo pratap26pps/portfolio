@@ -18,9 +18,10 @@
     
  }
  .fadded-text{
-    scale: 0.4;
-    margin-left: -300px;
-    margin-bottom: 13%;
+    /* scale: 0.3;
+    margin-left: -310px;
+    margin-bottom: 12%; */
+    display: none;
  }
  .text{
     padding: 16%;
