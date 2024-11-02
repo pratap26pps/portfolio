@@ -47,18 +47,14 @@
  .hero-section{
     display: flex;
     flex-direction: column-reverse;
-    
+     margin-top: 20%;
+     margin-bottom: 25%;
  }
- .fadded-text{
-    /* scale: 0.3;
-    margin-left: -310px;
-    margin-bottom: 12%; */
-    display: none;
- }
+ 
  .text{
     padding: 16%;
     margin-left: -10%;
-     
+    
  }
  
  .project-card{
@@ -192,7 +188,7 @@ a{
 .hero-section{
     position: relative;
     margin-top: 3%;
-    height: 490px;
+    height: 76vh;
      display: flex;
     justify-content: space-evenly;
 }
@@ -234,8 +230,8 @@ button{
     user-select: none;
     font-size: 6rem;
     color: rgb(211,211,211);
-    margin-top:360px;
-    left: 8%;
+    bottom: 1%;
+    left: 4%;
     font-weight: bold;
      z-index:10;
  
@@ -397,8 +393,7 @@ button{
      gap: 3vw;
 }
 .skill-image{
-   /* height: 8vh;
-    width: 4vw; */
+ 
     height: 52px;
     width: 40px;
 
