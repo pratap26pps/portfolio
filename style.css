@@ -4,6 +4,22 @@
    box-sizing: border-box;
    scroll-behavior: smooth;
 }
+@media (max-width:720px) {
+    .hero-section{
+        display: flex;
+        flex-direction: column-reverse;
+        
+     }
+     .fadded-text{
+        scale: 0.5     
+     }
+     .hero{
+     
+        margin-left: 20%;
+       
+      }
+
+}
   @media (max-width:440px) {
    
     .hero{
