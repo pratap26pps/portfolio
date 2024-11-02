@@ -226,12 +226,12 @@ button{
 .fadded-text{
     position: absolute; 
    width: 243vw;
- 
+   scale: 0.8;
     user-select: none;
     font-size: 6rem;
     color: rgb(211,211,211);
     bottom: 1%;
-    left: 4%;
+    margin-left: 105%;
     font-weight: bold;
      z-index:10;
  
