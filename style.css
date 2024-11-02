@@ -11,12 +11,28 @@
         
      }
      .fadded-text{
-        scale: 0.5     
+        display: none;    
+     }
+     .fadded-text1{
+        margin-left: -73px;
+     }
+     .fadded-text2{
+        scale: 0.6;
+        margin-bottom: -53px;       
      }
      .hero{
-     
+        margin-top: 20%;
+        scale: 0.7;
         margin-left: 20%;
        
+      }
+      .text{
+        padding: 3%;
+      }
+      .project-container{
+        scale: 0.7;
+        margin-bottom: -102px;
+        margin-top: -102px;
       }
 
 }
@@ -174,8 +190,9 @@ a{
 
 }
 .hero-section{
+    position: relative;
     margin-top: 3%;
-    height: 80vh;
+    height: 76vh;
      display: flex;
     justify-content: space-evenly;
 }
@@ -217,7 +234,7 @@ button{
     user-select: none;
     font-size: 6rem;
     color: rgb(211,211,211);
-    bottom: 1%;
+    margin-top:360px;
     left: 8%;
     font-weight: bold;
      z-index:10;
