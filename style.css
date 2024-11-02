@@ -192,7 +192,7 @@ a{
 .hero-section{
     position: relative;
     margin-top: 3%;
-    height: 76vh;
+    height: 490px;
      display: flex;
     justify-content: space-evenly;
 }
