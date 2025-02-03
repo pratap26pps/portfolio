@@ -171,28 +171,29 @@ voluptatibus.</p>
     <div id="contact me" class="form-section">
         <h1 class="heading">contact me</h1>
         <div class="form-box">
+           
             <center>
                 <fieldset>
                     <legend class="leagend">Question,Thoughts,Or Just Want To Say Hello </legend>
-            <form class="form-input">
-                <input class="search" type="search" id="name" placeholder="Enter Your Name ">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="ade29983-eceb-4438-8b57-45543132b11d">
+
+                <input class="search" type="search" name="name" 
+               required placeholder="Enter Your Name ">
         <br> <br>
-              <input class="search" type="email" name="email" id="email" placeholder="Enter Your Email">      
+              <input class="search" type="email" name="email" id="email" 
+             required placeholder="Enter Your Email">      
         <br> <br> 
-                <label>enter your subject</label>
-                <select name="subject" id="subject" placeholder="Enter Your Subject">
-                    <option value="Philosophy">Philosophy</option>
-                    <option value="History">History</option>
-                    <option value="maths">Maths</option>
-                    <option value="physics">Physics</option>
-                    <option value="other">Other</option>
-                </select>
+               
                 <br>
                 <br>
-               <textarea class="search1" name="textarea" id="content" cols="30" rows="10" placeholder="type your text here"></textarea>
+               <textarea class="search1" name="textarea" name="content" cols="30" rows="10"
+               required placeholder="type your text here"></textarea>
                 <br>
                 <br>
-                <button class="button-group">send message</button>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <button class="button-group" type="submit">send message</button>
         
             </form>
             </fieldset>
