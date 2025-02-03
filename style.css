@@ -125,10 +125,12 @@
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: cadetblue;
+    background-color: rgb(77, 73, 73);
     
   
 }
+ 
+ 
 .P{
     color: crimson;
   font-size: 180%;
@@ -499,13 +501,13 @@ button{
 
 
 #project1{
-    background-image: url("userlogin.jpg");
+    background-image: url("https://files.oaiusercontent.com/file-LjkayyifNWriEjCgHzxeED?se=2025-02-03T09%3A47%3A48Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df1686500-b351-48b3-a878-74cd7907d4f0.webp&sig=Ptght5duF96ncwe94YqGnKCCKIzqz6p9QmnHHaxwWlI%3D");
 }
 #project2{
-    background-image: url("weather.jpg");
+    background-image: url("userlogin.jpg");
 }
 #project3{
-    background-image: url("Strong-Password-Generator.jpg");
+    background-image: url("weather.jpg");
 }
 #project4{
     background-image: url("razorpay.jpg");
