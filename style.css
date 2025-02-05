@@ -145,7 +145,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 4%; 
-   
+   color: aliceblue;
      
 }
 .logo-container{
@@ -159,11 +159,11 @@
     display: flex;
     gap: 1rem;
     margin-right: 3%;
-    
+
    
 }
 .a{
-    color: #1f1f1f;
+    color: white;
  
 }
  
@@ -201,6 +201,7 @@ a{
      flex-direction: column;
     z-index: 5;
     gap: 6%;
+    color: aliceblue;
 }
 button{
     height: 30px;
