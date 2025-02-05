@@ -54,7 +54,11 @@
  .text{
     padding: 16%;
     margin-left: -10%;
+    line-height: 25px;
     
+ }
+ .button-group{
+    margin-top: 10%;
  }
  
  .project-card{
